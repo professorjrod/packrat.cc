@@ -1,8 +1,25 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Code2, Wrench, Calculator, Terminal, ArrowRight, Shield, Sparkles, Gamepad2, Music, Youtube, Video, Mic2 } from "lucide-react";
 import { SiDiscord } from "react-icons/si";
+
+export const metadata: Metadata = {
+  title: "PACK RAT - Developer • Producer • Gamer",
+  description: "Rust console commands and keybinds for PVP, crafting, audio, performance optimization, and quality of life improvements. For competitive players.",
+  openGraph: {
+    title: "PACK RAT - Developer • Producer • Gamer",
+    description: "Rust console commands and keybinds for PVP, crafting, audio, performance optimization, and quality of life improvements. For competitive players.",
+    type: "website",
+    siteName: "PACK RAT",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PACK RAT - Developer • Producer • Gamer",
+    description: "Rust console commands and keybinds for PVP, crafting, audio, performance optimization, and quality of life improvements. For competitive players.",
+  },
+};
 
 export default function Home() {
   return (

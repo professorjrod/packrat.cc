@@ -23,6 +23,17 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "PACK RAT - Developer • Producer • Gamer",
   description: "PACK RAT - Full-stack web developer building modern applications and creative digital experiences. Code, creativity, and gaming expertise.",
+  openGraph: {
+    title: "PACK RAT - Developer • Producer • Gamer",
+    description: "Full-stack web developer building modern applications and creative digital experiences. Code, creativity, and gaming expertise.",
+    type: "website",
+    siteName: "PACK RAT",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PACK RAT - Developer • Producer • Gamer",
+    description: "Full-stack web developer building modern applications and creative digital experiences.",
+  },
 };
 
 export default function RootLayout({
