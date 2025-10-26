@@ -27,6 +27,7 @@ const ItemIcon = ({ src, alt, size = 24, emoji }: { src: string; alt: string; si
       height={size}
       className="object-contain"
       onError={() => setError(true)}
+      unoptimized
     />
   );
 };
