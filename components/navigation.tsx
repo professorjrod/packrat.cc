@@ -27,6 +27,12 @@ export function Navigation() {
             What I Do
           </Link>
           <Link
+            href="/rust-services"
+            className="text-sm font-semibold transition-colors hover:text-secondary relative after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-0 after:bg-gradient-to-r after:from-secondary after:to-primary after:transition-all hover:after:w-full"
+          >
+            Gaming Services
+          </Link>
+          <Link
             href="/tools"
             className="text-sm font-semibold transition-colors hover:text-accent relative after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-0 after:bg-gradient-to-r after:from-accent after:to-primary after:transition-all hover:after:w-full"
           >
@@ -64,6 +70,13 @@ export function Navigation() {
               className="text-sm font-semibold transition-colors hover:text-primary py-2"
             >
               What I Do
+            </Link>
+            <Link
+              href="/rust-services"
+              onClick={() => setMobileMenuOpen(false)}
+              className="text-sm font-semibold transition-colors hover:text-secondary py-2"
+            >
+              Gaming Services
             </Link>
             <Link
               href="/tools"
