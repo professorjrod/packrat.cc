@@ -5,16 +5,16 @@ import { Button } from "@/components/ui/button";
 import { Calculator, Terminal, Wrench, Shield } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Rust Tools & Calculators - PACK RAT",
+  title: "PACK RAT Rust Tools & Calculators",
   description: "Essential tools and calculators for Rust players. Raid calculator, console commands, crafting calculator, and base design tools.",
   openGraph: {
-    title: "Rust Tools & Calculators",
+    title: "PACK RAT Rust Tools & Calculators",
     description: "Essential tools and calculators for Rust players. Raid calculator, console commands, crafting calculator, and base design tools.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rust Tools & Calculators",
+    title: "PACK RATRust Tools & Calculators",
     description: "Essential tools and calculators for Rust players. Raid calculator, console commands, and more.",
   },
 };
