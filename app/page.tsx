@@ -6,18 +6,18 @@ import { Code2, Wrench, Calculator, Terminal, ArrowRight, Shield, Sparkles, Game
 import { SiDiscord } from "react-icons/si";
 
 export const metadata: Metadata = {
-  title: "PACK RAT - Developer • Producer • Gamer",
-  description: "Rust console commands and keybinds for PVP, crafting, audio, performance optimization, and quality of life improvements. For competitive players.",
+  title: "PACK RAT - Developer • Video Editor • Producer",
+  description: "PACK RAT - Full-stack web developer and video editor crafting modern applications, cinematic edits, and creative digital experiences.",
   openGraph: {
-    title: "PACK RAT - Developer • Producer • Gamer",
-    description: "Rust console commands and keybinds for PVP, crafting, audio, performance optimization, and quality of life improvements. For competitive players.",
+    title: "PACK RAT - Developer • Video Editor • Producer",
+    description: "PACK RAT - Full-stack web developer and video editor crafting modern applications, cinematic edits, and creative digital experiences.",
     type: "website",
     siteName: "PACK RAT",
   },
   twitter: {
     card: "summary_large_image",
-    title: "PACK RAT - Developer • Producer • Gamer",
-    description: "Rust console commands and keybinds for PVP, crafting, audio, performance optimization, and quality of life improvements. For competitive players.",
+    title: "PACK RAT - Developer • Video Editor • Producer",
+    description: "PACK RAT - Full-stack web developer and video editor crafting modern applications, cinematic edits, and creative digital experiences.",
   },
 };
 
@@ -49,11 +49,11 @@ export default function Home() {
               Hi, I'm <span className="gradient-text">PACK RAT</span>
             </h1>
             <p className="max-w-[700px] text-lg text-muted-foreground sm:text-xl font-[family-name:var(--font-space-grotesk)]">
-              <span className="font-bold text-primary">Developer</span> • <span className="font-bold text-secondary">Producer</span> • <span className="font-bold text-accent">Gamer</span>
+              <span className="font-bold text-primary">Developer</span> • <span className="font-bold text-secondary">Video Editor</span> • <span className="font-bold text-accent">Producer</span>
             </p>
             <p className="max-w-[700px] text-base text-muted-foreground sm:text-lg">
-              I build modern web applications and craft tools for the gaming community.
-              Let's bring your ideas to life with clean code and creative solutions.
+              I build modern web applications, deliver cinematic edits for creators, and craft tools for the gaming community.
+              Let's bring your ideas to life with clean code, polished storytelling, and creative solutions.
             </p>
             <div className="flex gap-4 mt-4">
               <Button size="lg" className="glow-effect font-semibold" asChild>
@@ -110,15 +110,15 @@ export default function Home() {
               </div>
               <CardTitle className="text-secondary font-[family-name:var(--font-space-grotesk)] text-xl">Video Editing</CardTitle>
               <CardDescription>
-                Professional video editing services • Available for hire
+                Professional video editing for creators, streamers, and brands • Available for hire
               </CardDescription>
             </CardHeader>
             <CardContent>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>• YouTube content editing</li>
-                <li>• Promotional videos</li>
-                <li>• Color grading & effects</li>
-                <li>• Audio synchronization</li>
+                <li>• YouTube and short-form content editing</li>
+                <li>• Promotional and launch videos</li>
+                <li>• Color grading, motion graphics, & effects</li>
+                <li>• Audio cleanup & synchronization</li>
               </ul>
             </CardContent>
           </Card>
@@ -197,7 +197,7 @@ export default function Home() {
               Let's <span className="gradient-text">Work Together</span>
             </h2>
             <p className="max-w-[600px] text-muted-foreground text-lg">
-              Have a project in mind? Looking for a developer who brings creativity, technical expertise, and passion to every build? Let's chat.
+              Have a project in mind? Looking for a developer and video editor who brings creativity, technical expertise, and passion to every build? Let's chat.
             </p>
             
             {/* Social Links */}

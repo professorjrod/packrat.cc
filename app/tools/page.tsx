@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "PACK RATRust Tools & Calculators",
+    title: "PACK RAT Rust Tools & Calculators",
     description: "Essential tools and calculators for Rust players. Raid calculator, console commands, and more.",
   },
 };
