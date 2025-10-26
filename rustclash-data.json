@@ -1,0 +1,837 @@
+{
+  "structures": {
+    "Wooden Door": {
+      "name": "Wooden Door",
+      "type": "structure",
+      "hp": 200,
+      "raidCosts": [
+        {
+          "explosive": "Firebomb",
+          "quantity": 1,
+          "sulfurCost": 300,
+          "time": "27 sec"
+        },
+        {
+          "explosive": "Rocket",
+          "quantity": 1,
+          "sulfurCost": 300,
+          "time": "8 sec"
+        },
+        {
+          "explosive": "Explosive Ammo",
+          "quantity": 19,
+          "sulfurCost": 475,
+          "time": "7 sec"
+        },
+        {
+          "explosive": "Beancan Grenade",
+          "quantity": 6,
+          "sulfurCost": 720,
+          "time": "25 sec"
+        },
+        {
+          "explosive": "Satchel Charge",
+          "quantity": 2,
+          "sulfurCost": 960,
+          "time": "10 sec"
+        },
+        {
+          "explosive": "F1 Grenade",
+          "quantity": 23,
+          "sulfurCost": 1380,
+          "time": "59 sec"
+        },
+        {
+          "explosive": "Timed Explosive (C4)",
+          "quantity": 1,
+          "sulfurCost": 2200,
+          "time": "10 sec"
+        },
+        {
+          "explosive": "Molotov Cocktail",
+          "quantity": 2,
+          "sulfurCost": null,
+          "time": "19 sec"
+        }
+      ],
+      "craftingCost": {},
+      "damage": null,
+      "sulfurCost": null,
+      "timeToDestroy": null,
+      "quantity": null,
+      "notes": [
+        "There is currently a bug where a door sometimes can not be picked up until any type of Lock has been placed and removed"
+      ],
+      "slug": "wooden-door",
+      "url": "https://wiki.rustclash.com/item/wooden-door"
+    },
+    "Sheet Metal Door": {
+      "name": "Sheet Metal Door",
+      "type": "structure",
+      "hp": 250,
+      "raidCosts": [
+        {
+          "explosive": "Explosive Ammo",
+          "quantity": 63,
+          "sulfurCost": 1575,
+          "time": "23 sec"
+        },
+        {
+          "explosive": "Satchel Charge",
+          "quantity": 4,
+          "sulfurCost": 1920,
+          "time": "13 sec"
+        },
+        {
+          "explosive": "Beancan Grenade",
+          "quantity": 18,
+          "sulfurCost": 2160,
+          "time": "1 min"
+        },
+        {
+          "explosive": "Rocket",
+          "quantity": 11,
+          "sulfurCost": 2200,
+          "time": "1 min"
+        },
+        {
+          "explosive": "Timed Explosive (C4)",
+          "quantity": 1,
+          "sulfurCost": 2200,
+          "time": "10 sec"
+        },
+        {
+          "explosive": "F1 Grenade",
+          "quantity": 50,
+          "sulfurCost": 3000,
+          "time": "2 min"
+        }
+      ],
+      "craftingCost": {},
+      "damage": null,
+      "sulfurCost": null,
+      "timeToDestroy": null,
+      "quantity": null,
+      "notes": [],
+      "slug": "sheet-metal-door",
+      "url": "https://wiki.rustclash.com/item/sheet-metal-door"
+    },
+    "Garage Door": {
+      "name": "Garage Door",
+      "type": "structure",
+      "hp": 600,
+      "raidCosts": [
+        {
+          "explosive": "Explosive Ammo",
+          "quantity": 150,
+          "sulfurCost": 3750,
+          "time": "1 min"
+        },
+        {
+          "explosive": "Rocket",
+          "quantity": 3,
+          "sulfurCost": 4200,
+          "time": "12 sec"
+        },
+        {
+          "explosive": "Satchel Charge",
+          "quantity": 9,
+          "sulfurCost": 4320,
+          "time": "21 sec"
+        },
+        {
+          "explosive": "Timed Explosive (C4)",
+          "quantity": 2,
+          "sulfurCost": 4400,
+          "time": "11 sec"
+        },
+        {
+          "explosive": "Beancan Grenade",
+          "quantity": 42,
+          "sulfurCost": 5040,
+          "time": "2 min"
+        },
+        {
+          "explosive": "F1 Grenade",
+          "quantity": 120,
+          "sulfurCost": 7200,
+          "time": "5 min"
+        },
+        {
+          "explosive": "Rockets to",
+          "quantity": 3
+        }
+      ],
+      "craftingCost": {},
+      "damage": null,
+      "sulfurCost": null,
+      "timeToDestroy": null,
+      "quantity": null,
+      "notes": [],
+      "slug": "garage-door",
+      "url": "https://wiki.rustclash.com/item/garage-door"
+    },
+    "Armored Door": {
+      "name": "Armored Door",
+      "type": "structure",
+      "hp": 1000,
+      "raidCosts": [
+        {
+          "explosive": "Explosive Ammo",
+          "quantity": 250,
+          "sulfurCost": 6250,
+          "time": "1 min"
+        },
+        {
+          "explosive": "Timed Explosive (C4)",
+          "quantity": 3,
+          "sulfurCost": 6600,
+          "time": "13 sec"
+        },
+        {
+          "explosive": "Rocket",
+          "quantity": 5,
+          "sulfurCost": 7000,
+          "time": "24 sec"
+        },
+        {
+          "explosive": "Satchel Charge",
+          "quantity": 15,
+          "sulfurCost": 7200,
+          "time": "30 sec"
+        },
+        {
+          "explosive": "Beancan Grenade",
+          "quantity": 69,
+          "sulfurCost": 8280,
+          "time": "4 min"
+        },
+        {
+          "explosive": "F1 Grenade",
+          "quantity": 200,
+          "sulfurCost": 12000,
+          "time": "8 min"
+        }
+      ],
+      "craftingCost": {},
+      "damage": null,
+      "sulfurCost": null,
+      "timeToDestroy": null,
+      "quantity": null,
+      "notes": [],
+      "slug": "armored-door",
+      "url": "https://wiki.rustclash.com/item/armored-door"
+    },
+    "Wooden Wall": {
+      "name": "Wooden Wall",
+      "type": "structure",
+      "hp": 500,
+      "raidCosts": [
+        {
+          "explosive": "Rocket",
+          "quantity": 1,
+          "sulfurCost": 300,
+          "time": "41 sec"
+        },
+        {
+          "explosive": "Firebomb",
+          "quantity": 2,
+          "sulfurCost": 600,
+          "time": "1 min"
+        },
+        {
+          "explosive": "Explosive Ammo",
+          "quantity": 98,
+          "sulfurCost": 2450,
+          "time": "42 sec"
+        },
+        {
+          "explosive": "Satchel Charge",
+          "quantity": 6,
+          "sulfurCost": 2880,
+          "time": "16 sec"
+        },
+        {
+          "explosive": "Beancan Grenade",
+          "quantity": 26,
+          "sulfurCost": 3120,
+          "time": "1 min"
+        },
+        {
+          "explosive": "Timed Explosive (C4)",
+          "quantity": 2,
+          "sulfurCost": 4400,
+          "time": "11 sec"
+        },
+        {
+          "explosive": "F1 Grenade",
+          "quantity": 118,
+          "sulfurCost": 7080,
+          "time": "4 min"
+        },
+        {
+          "explosive": "Molotov Cocktail",
+          "quantity": 7,
+          "sulfurCost": null,
+          "time": "24 sec"
+        }
+      ],
+      "craftingCost": {},
+      "damage": null,
+      "sulfurCost": null,
+      "timeToDestroy": null,
+      "quantity": null,
+      "notes": [],
+      "slug": "wooden-wall",
+      "url": "https://wiki.rustclash.com/item/wooden-wall"
+    },
+    "Stone Wall": {
+      "name": "Stone Wall",
+      "type": "structure",
+      "hp": 500,
+      "raidCosts": [
+        {
+          "explosive": "Timed Explosive (C4)",
+          "quantity": 2,
+          "sulfurCost": 4400,
+          "time": "11 sec"
+        },
+        {
+          "explosive": "Explosive Ammo",
+          "quantity": 185,
+          "sulfurCost": 4625,
+          "time": "1 min"
+        },
+        {
+          "explosive": "Satchel Charge",
+          "quantity": 10,
+          "sulfurCost": 4800,
+          "time": "22 sec"
+        },
+        {
+          "explosive": "Beancan Grenade",
+          "quantity": 46,
+          "sulfurCost": 5520,
+          "time": "2 min"
+        },
+        {
+          "explosive": "Rocket",
+          "quantity": 4,
+          "sulfurCost": 5600,
+          "time": "18 sec"
+        },
+        {
+          "explosive": "F1 Grenade",
+          "quantity": 182,
+          "sulfurCost": 10920,
+          "time": "7 min"
+        }
+      ],
+      "craftingCost": {},
+      "damage": null,
+      "sulfurCost": null,
+      "timeToDestroy": null,
+      "quantity": null,
+      "notes": [],
+      "slug": "stone-wall",
+      "url": "https://wiki.rustclash.com/item/stone-wall"
+    },
+    "Stone Foundation": {
+      "name": "Stone Foundation",
+      "type": "structure",
+      "hp": 100,
+      "raidCosts": [
+        {
+          "explosive": "F1 Grenade",
+          "quantity": 3,
+          "sulfurCost": 180,
+          "time": "6 sec"
+        },
+        {
+          "explosive": "Beancan Grenade",
+          "quantity": 2,
+          "sulfurCost": 240,
+          "time": "6 sec"
+        },
+        {
+          "explosive": "Explosive Ammo",
+          "quantity": 11,
+          "sulfurCost": 275,
+          "time": "1 sec"
+        },
+        {
+          "explosive": "Rocket",
+          "quantity": 2,
+          "sulfurCost": 400,
+          "time": "6 sec"
+        },
+        {
+          "explosive": "Satchel Charge",
+          "quantity": 1,
+          "sulfurCost": 480,
+          "time": "9 sec"
+        },
+        {
+          "explosive": "Timed Explosive (C4)",
+          "quantity": 1,
+          "sulfurCost": 2200,
+          "time": "10 sec"
+        }
+      ],
+      "craftingCost": {},
+      "damage": null,
+      "sulfurCost": null,
+      "timeToDestroy": null,
+      "quantity": null,
+      "notes": [],
+      "slug": "stone-foundation",
+      "url": "https://wiki.rustclash.com/item/stone-foundation"
+    },
+    "Sheet Metal Wall": {
+      "name": "Sheet Metal Wall",
+      "type": "structure",
+      "hp": null,
+      "raidCosts": [],
+      "craftingCost": {},
+      "damage": null,
+      "sulfurCost": null,
+      "timeToDestroy": null,
+      "quantity": null,
+      "notes": [],
+      "slug": "sheet-metal-wall",
+      "url": "https://wiki.rustclash.com/item/sheet-metal-wall"
+    },
+    "Sheet Metal Foundation": {
+      "name": "Sheet Metal Foundation",
+      "type": "structure",
+      "hp": null,
+      "raidCosts": [],
+      "craftingCost": {},
+      "damage": null,
+      "sulfurCost": null,
+      "timeToDestroy": null,
+      "quantity": null,
+      "notes": [],
+      "slug": "sheet-metal-foundation",
+      "url": "https://wiki.rustclash.com/item/sheet-metal-foundation"
+    },
+    "Armored Wall": {
+      "name": "Armored Wall",
+      "type": "structure",
+      "hp": 700,
+      "raidCosts": [
+        {
+          "explosive": "Rocket",
+          "quantity": 3,
+          "sulfurCost": 600,
+          "time": "12 sec"
+        },
+        {
+          "explosive": "F1 Grenade",
+          "quantity": 14,
+          "sulfurCost": 840,
+          "time": "19 sec"
+        },
+        {
+          "explosive": "Explosive Ammo",
+          "quantity": 100,
+          "sulfurCost": 2500,
+          "time": "42 sec"
+        },
+        {
+          "explosive": "Satchel Charge",
+          "quantity": 6,
+          "sulfurCost": 2880,
+          "time": "16 sec"
+        },
+        {
+          "explosive": "Timed Explosive (C4)",
+          "quantity": 2,
+          "sulfurCost": 4400,
+          "time": "11 sec"
+        },
+        {
+          "explosive": "Beancan Grenade",
+          "quantity": 52,
+          "sulfurCost": 6240,
+          "time": "1 min"
+        },
+        {
+          "explosive": "Firebomb",
+          "quantity": 280,
+          "sulfurCost": 84000,
+          "time": "6 sec"
+        },
+        {
+          "explosive": "Molotov Cocktail",
+          "quantity": 400,
+          "sulfurCost": null,
+          "time": "6 min"
+        }
+      ],
+      "craftingCost": {},
+      "damage": null,
+      "sulfurCost": null,
+      "timeToDestroy": null,
+      "quantity": null,
+      "notes": [],
+      "slug": "armored-wall",
+      "url": "https://wiki.rustclash.com/item/armored-wall"
+    },
+    "Armored Foundation": {
+      "name": "Armored Foundation",
+      "type": "structure",
+      "hp": 700,
+      "raidCosts": [
+        {
+          "explosive": "Rocket",
+          "quantity": 3,
+          "sulfurCost": 600,
+          "time": "12 sec"
+        },
+        {
+          "explosive": "F1 Grenade",
+          "quantity": 14,
+          "sulfurCost": 840,
+          "time": "19 sec"
+        },
+        {
+          "explosive": "Explosive Ammo",
+          "quantity": 100,
+          "sulfurCost": 2500,
+          "time": "42 sec"
+        },
+        {
+          "explosive": "Satchel Charge",
+          "quantity": 6,
+          "sulfurCost": 2880,
+          "time": "16 sec"
+        },
+        {
+          "explosive": "Timed Explosive (C4)",
+          "quantity": 2,
+          "sulfurCost": 4400,
+          "time": "11 sec"
+        },
+        {
+          "explosive": "Beancan Grenade",
+          "quantity": 52,
+          "sulfurCost": 6240,
+          "time": "1 min"
+        },
+        {
+          "explosive": "Firebomb",
+          "quantity": 280,
+          "sulfurCost": 84000,
+          "time": "6 sec"
+        },
+        {
+          "explosive": "Molotov Cocktail",
+          "quantity": 400,
+          "sulfurCost": null,
+          "time": "6 min"
+        }
+      ],
+      "craftingCost": {},
+      "damage": null,
+      "sulfurCost": null,
+      "timeToDestroy": null,
+      "quantity": null,
+      "notes": [],
+      "slug": "armored-foundation",
+      "url": "https://wiki.rustclash.com/item/armored-foundation"
+    },
+    "Tool Cupboard": {
+      "name": "Tool Cupboard",
+      "type": "deployable",
+      "hp": 100,
+      "raidCosts": [
+        {
+          "explosive": "Explosive Ammo",
+          "quantity": 10,
+          "sulfurCost": 250,
+          "time": "1 sec"
+        },
+        {
+          "explosive": "Firebomb",
+          "quantity": 1,
+          "sulfurCost": 300,
+          "time": "16 sec"
+        },
+        {
+          "explosive": "Rocket",
+          "quantity": 1,
+          "sulfurCost": 300,
+          "time": "4 sec"
+        },
+        {
+          "explosive": "Beancan Grenade",
+          "quantity": 4,
+          "sulfurCost": 480,
+          "time": "8 sec"
+        },
+        {
+          "explosive": "Satchel Charge",
+          "quantity": 1,
+          "sulfurCost": 480,
+          "time": "9 sec"
+        },
+        {
+          "explosive": "Timed Explosive (C4)",
+          "quantity": 1,
+          "sulfurCost": 2200,
+          "time": "10 sec"
+        },
+        {
+          "explosive": "F1 Grenade",
+          "quantity": 43,
+          "sulfurCost": 2580,
+          "time": "54 sec"
+        },
+        {
+          "explosive": "Molotov Cocktail",
+          "quantity": 1,
+          "sulfurCost": null,
+          "time": "18 sec"
+        }
+      ],
+      "craftingCost": {},
+      "damage": null,
+      "sulfurCost": null,
+      "timeToDestroy": null,
+      "quantity": null,
+      "notes": [],
+      "slug": "tool-cupboard",
+      "url": "https://wiki.rustclash.com/item/tool-cupboard"
+    },
+    "Large Wood Box": {
+      "name": "Large Wood Box",
+      "type": "deployable",
+      "hp": 300,
+      "raidCosts": [
+        {
+          "explosive": "F1 Grenade",
+          "quantity": 4,
+          "sulfurCost": 240,
+          "time": "7 sec"
+        },
+        {
+          "explosive": "Firebomb",
+          "quantity": 1,
+          "sulfurCost": 300,
+          "time": "18 sec"
+        },
+        {
+          "explosive": "Rocket",
+          "quantity": 1,
+          "sulfurCost": 300,
+          "time": "4 sec"
+        },
+        {
+          "explosive": "Satchel Charge",
+          "quantity": 1,
+          "sulfurCost": 480,
+          "time": "9 sec"
+        },
+        {
+          "explosive": "Beancan Grenade",
+          "quantity": 5,
+          "sulfurCost": 600,
+          "time": "9 sec"
+        },
+        {
+          "explosive": "Explosive Ammo",
+          "quantity": 34,
+          "sulfurCost": 850,
+          "time": "14 sec"
+        },
+        {
+          "explosive": "Timed Explosive (C4)",
+          "quantity": 1,
+          "sulfurCost": 2200,
+          "time": "10 sec"
+        },
+        {
+          "explosive": "Molotov Cocktail",
+          "quantity": 1,
+          "sulfurCost": null,
+          "time": "18 sec"
+        }
+      ],
+      "craftingCost": {},
+      "damage": null,
+      "sulfurCost": null,
+      "timeToDestroy": null,
+      "quantity": null,
+      "notes": [],
+      "slug": "large-wood-box",
+      "url": "https://wiki.rustclash.com/item/large-wood-box"
+    },
+    "Vending Machine": {
+      "name": "Vending Machine",
+      "type": "deployable",
+      "hp": 1250,
+      "raidCosts": [
+        {
+          "explosive": "Timed Explosive (C4)",
+          "quantity": 3,
+          "sulfurCost": 6600,
+          "time": "13 sec"
+        },
+        {
+          "explosive": "Satchel Charge",
+          "quantity": 15,
+          "sulfurCost": 7200,
+          "time": "30 sec"
+        },
+        {
+          "explosive": "Explosive Ammo",
+          "quantity": 499,
+          "sulfurCost": 12475,
+          "time": "3 min"
+        },
+        {
+          "explosive": "Rocket",
+          "quantity": 10,
+          "sulfurCost": 14000,
+          "time": "55 sec"
+        },
+        {
+          "explosive": "Beancan Grenade",
+          "quantity": 139,
+          "sulfurCost": 16680,
+          "time": "2 min"
+        },
+        {
+          "explosive": "F1 Grenade",
+          "quantity": 1241,
+          "sulfurCost": 74460,
+          "time": "24 min"
+        }
+      ],
+      "craftingCost": {},
+      "damage": null,
+      "sulfurCost": null,
+      "timeToDestroy": null,
+      "quantity": null,
+      "notes": [
+        "loot underwater before logging off"
+      ],
+      "slug": "vending-machine",
+      "url": "https://wiki.rustclash.com/item/vending-machine"
+    }
+  },
+  "explosives": {
+    "Rocket": {
+      "name": "Rocket",
+      "type": "explosive",
+      "hp": 3,
+      "raidCosts": [
+        {
+          "explosive": "rockets to",
+          "quantity": 2
+        }
+      ],
+      "craftingCost": {
+        "sulfur": 1400,
+        "gunpowder": 10,
+        "lowGradeFuel": 4
+      },
+      "damage": 350,
+      "sulfurCost": null,
+      "timeToDestroy": null,
+      "quantity": null,
+      "notes": [
+        "Costs calculated above are based solely on the amount of sulfur needed and exclude all other costs (e"
+      ],
+      "slug": "rocket",
+      "url": "https://wiki.rustclash.com/item/rocket"
+    },
+    "Explosive Ammo": {
+      "name": "Explosive Ammo",
+      "type": "explosive",
+      "hp": null,
+      "raidCosts": [],
+      "craftingCost": {},
+      "damage": null,
+      "sulfurCost": null,
+      "timeToDestroy": null,
+      "quantity": null,
+      "notes": [],
+      "slug": "explosive-5-56-rifle-ammo",
+      "url": "https://wiki.rustclash.com/item/explosive-5-56-rifle-ammo"
+    },
+    "Satchel Charge": {
+      "name": "Satchel Charge",
+      "type": "explosive",
+      "hp": null,
+      "raidCosts": [],
+      "craftingCost": {
+        "gunpowder": 10
+      },
+      "damage": 475,
+      "sulfurCost": null,
+      "timeToDestroy": null,
+      "quantity": null,
+      "notes": [
+        "that sometimes the charge will re-ignite when the dud is picked up, going off with a very short fuse!\n\nDamage\n475\n\n\nExplosion Radius\n4 m\n\n\nExplosion Delay\n6–12 sec\n\n\nDud Chance\n20 %\n\n\n\t\n\t\n\tLoot\nCraft\nBlueprint\nRecycling\nSkinsTips\n\t\t\n\nContainer\n\t\tCondition\n\t\tAmount\n\t\tChance\n\t\t\n\n\nSupply Drop\n-\n2–4\n49 %\n\n\nLocked Crate\n-\n2\n9 %\n\n\nSunken Chest\n-\n1\n1 %\n\n\nWagon Crate\n-\n1\n0"
+      ],
+      "slug": "satchel-charge",
+      "url": "https://wiki.rustclash.com/item/satchel-charge"
+    },
+    "Timed Explosive Charge": {
+      "name": "Timed Explosive Charge",
+      "type": "explosive",
+      "hp": 250,
+      "raidCosts": [],
+      "craftingCost": {
+        "gunpowder": 10,
+        "lowGradeFuel": 4
+      },
+      "damage": 550,
+      "sulfurCost": null,
+      "timeToDestroy": null,
+      "quantity": null,
+      "notes": [
+        "to protect this item from your enemies, as it can prove fatal once it's in the wrong hands"
+      ],
+      "slug": "timed-explosive-charge",
+      "url": "https://wiki.rustclash.com/item/timed-explosive-charge"
+    },
+    "F1 Grenade": {
+      "name": "F1 Grenade",
+      "type": "explosive",
+      "hp": null,
+      "raidCosts": [],
+      "craftingCost": {
+        "gunpowder": 10
+      },
+      "damage": 225,
+      "sulfurCost": null,
+      "timeToDestroy": null,
+      "quantity": null,
+      "notes": [
+        "tips:  • Explosive protection is a thing, but there is no exact way to counteract explosions fully with any set of armour, so this grenade will deal a devastating amount of damage if it hits, anyone healing behind cover is likely to get killed if they've been critically injured",
+        "attach an F1 grenade to the hatch of an armored door, when the people behind it are constantly peeking through it"
+      ],
+      "slug": "f1-grenade",
+      "url": "https://wiki.rustclash.com/item/f1-grenade"
+    },
+    "Incendiary Rocket": {
+      "error": "Attempted to use detached Frame 'CA75B0519FACE0F0FA8BEE730337305C'.",
+      "slug": "incendiary-rocket",
+      "url": "https://wiki.rustclash.com/item/incendiary-rocket"
+    },
+    "Molotov Cocktail": {
+      "error": "Attempted to use detached Frame 'CA75B0519FACE0F0FA8BEE730337305C'.",
+      "slug": "molotov-cocktail",
+      "url": "https://wiki.rustclash.com/item/molotov-cocktail"
+    }
+  },
+  "metadata": {
+    "scrapedAt": "2025-10-23T09:56:35.549Z",
+    "source": "wiki.rustclash.com",
+    "method": "puppeteer-headless",
+    "itemCount": 21
+  }
+}
